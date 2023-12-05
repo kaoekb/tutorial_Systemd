@@ -68,7 +68,9 @@ sudo systemctl enable "name"
 ---
 ---
 
-Расшифровка конфигурации для юнита "name".service
+### Расшифровка конфигурации для юнита "name".service
+
+Для создания простейшего юнита надо описать три секции: [Unit], [Service], [Install]
 
 ```bash
 [Unit]
