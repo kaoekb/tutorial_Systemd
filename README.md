@@ -113,3 +113,7 @@ journalctl - это утилита журнала системы, которая
 ```bash
 journalctl -u "name"
 ```
+Ограничение занимаемого места.
+```bash
+sudo journalctl --vacuum-size=100M
+```
